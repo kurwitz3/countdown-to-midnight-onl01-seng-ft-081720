@@ -6,4 +6,6 @@ def countdown(int)
 end
 end
 def countdown_with_sheep(int1)
-  
+  while int > 0 
+  puts "#{int} SECOND(S)!"
+  int -= 1 
